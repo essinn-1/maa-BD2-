@@ -13,7 +13,7 @@
         {
           "id": "tvct3iw",
           "taskName": "自动进入游戏",
-          "enabled": true,
+          "enabled": false,
           "optionValues": {}
         },
         {
@@ -31,7 +31,7 @@
         {
           "id": "g4qnksa",
           "taskName": "经营管理",
-          "enabled": true,
+          "enabled": false,
           "optionValues": {}
         },
         {
@@ -81,12 +81,6 @@
           "optionValues": {}
         },
         {
-          "id": "mdu1u0l",
-          "taskName": "EvilCastle",
-          "enabled": false,
-          "optionValues": {}
-        },
-        {
           "id": "qffoi7l",
           "taskName": "通行证",
           "enabled": false,
@@ -95,7 +89,7 @@
         {
           "id": "pmv5fyq",
           "taskName": "邮件",
-          "enabled": false,
+          "enabled": true,
           "optionValues": {}
         }
       ]
@@ -129,8 +123,8 @@
       "height": 589
     },
     "windowPosition": {
-      "x": 342,
-      "y": 134
+      "x": 692,
+      "y": 171
     },
     "mirrorChyan": {
       "cdk": "",
@@ -140,10 +134,10 @@
     "sidePanelExpanded": true,
     "rightPanelWidth": 609,
     "rightPanelCollapsed": false,
-    "connectionPanelExpanded": true,
+    "connectionPanelExpanded": false,
     "screenshotPanelExpanded": false,
     "screenshotFrameRate": "1",
-    "welcomeShownHash": "rvkijb",
+    "welcomeShownHash": "k6gcy3",
     "devMode": false,
     "tcpCompatMode": false,
     "autoRunOnLaunch": false,
@@ -169,7 +163,6 @@
     "通行证",
     "邮件",
     "Warcraft",
-    "EvilCastle",
     "测试用"
   ],
   "newTaskNames": [],

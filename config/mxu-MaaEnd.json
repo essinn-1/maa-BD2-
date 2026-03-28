@@ -1,0 +1,74 @@
+{
+  "version": "1.0",
+  "instances": [
+    {
+      "id": "hhfs2w7",
+      "name": "配置 1",
+      "controllerName": "Win32",
+      "resourceName": "官服",
+      "tasks": []
+    }
+  ],
+  "settings": {
+    "theme": "light",
+    "accentColor": "emerald",
+    "language": "system",
+    "confirmBeforeDelete": false,
+    "maxLogsPerInstance": 2000,
+    "windowSize": {
+      "width": 1000,
+      "height": 618
+    },
+    "windowPosition": {
+      "x": 882,
+      "y": 227
+    },
+    "mirrorChyan": {
+      "cdk": "",
+      "channel": "stable"
+    },
+    "showOptionPreview": true,
+    "sidePanelExpanded": true,
+    "rightPanelWidth": 320,
+    "rightPanelCollapsed": false,
+    "connectionPanelExpanded": true,
+    "screenshotPanelExpanded": true,
+    "screenshotFrameRate": "1",
+    "welcomeShownHash": "jizqqk",
+    "devMode": false,
+    "tcpCompatMode": false,
+    "autoRunOnLaunch": false,
+    "minimizeToTray": false,
+    "onboardingCompleted": true,
+    "hotkeys": {
+      "startTasks": "F10",
+      "stopTasks": "F11"
+    }
+  },
+  "recentlyClosed": [],
+  "interfaceTaskSnapshot": [
+    "RealTimeTask",
+    "PuzzleSolver",
+    "DijiangRewards",
+    "DailyRewards",
+    "SellProduct",
+    "AutoResell",
+    "EssenceFilter",
+    "CreditShopping",
+    "ImportBluePrints",
+    "DeliveryJobs",
+    "SeizeEntrustTask",
+    "ClaimSimulationRewards",
+    "VisitFriends",
+    "ReceiveProdManual",
+    "ReadAllWiki",
+    "ItemTransfer",
+    "BakerEntry",
+    "SimpleProductionBatchStart",
+    "PCOpenGame",
+    "AndroidOpenGame"
+  ],
+  "newTaskNames": [],
+  "customAccents": [],
+  "lastActiveInstanceId": "hhfs2w7"
+}

@@ -28,7 +28,7 @@
         "action":{
             "type":"click",
             "param":{
-                "target":[1125,667]
+                "target":[1125,675]
             }
         },
         "pre_delay":1000,

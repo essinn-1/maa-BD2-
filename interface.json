@@ -101,7 +101,6 @@
         "tasks/Passport.json",
         "tasks/Mail.json",
         "tasks/Warcraft.json",
-        "tasks/EvilCastle.json"
         "tasks/test.json"
     ]
 }
