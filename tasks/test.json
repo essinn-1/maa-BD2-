@@ -3,7 +3,7 @@
         {
             "name": "测试用",
             "label": "测试用",
-            "entry": "",
+            "entry": "StartGame",
             "description": ""
         }
     ],
