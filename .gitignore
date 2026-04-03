@@ -20,7 +20,6 @@ mxu-*.log
 .DS_Store
 Thumbs.db
 cache/
-.gitignore
 
 # 用户配置
 config/mxu-MaaBrownDust.json
