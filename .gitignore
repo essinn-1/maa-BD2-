@@ -1,6 +1,7 @@
 # Debug 文件和截图
 debug/
-*.png
+debug/*.png
+debug/on_error/*.png
 *.jpg
 *.jpeg
 
