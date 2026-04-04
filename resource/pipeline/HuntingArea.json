@@ -373,6 +373,7 @@
         "action":{
             "type":"click"
         },
+        "post_delay":1500,
         "next":[
             "MainHunt3"
         ]
@@ -389,6 +390,7 @@
         "action":{
             "type":"click"
         },
+        "post_delay":1000,
         "next":[
             "HuntClick3"
         ]
