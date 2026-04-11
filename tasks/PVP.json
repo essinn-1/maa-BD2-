@@ -4,7 +4,7 @@
             "name": "PVP",
             "label": "PVP",
             "entry": "StartPVP",
-            "description": "改了现在应该每天打完就会自动取消的",
+            "description": "适配了40次（其实是把开始的检测删了，毕竟检测是否免费的那个已经提前了）",
             "option":[]
         }
     ],

@@ -269,6 +269,16 @@
             "WaitForPVP"
         ]
     },
+    "WaitForPVP":{
+        "pre_delay":5000,
+        "post_delay":5000,
+        "next":[
+            "Quit",
+            "WaitForPVP",
+            "GoOut"
+        ]
+    },
+
     "Quit":{
         "recognition": {
             "type": "TemplateMatch",
@@ -302,18 +312,11 @@
         "next":[
             "GoOut",
             "CorrectPVP",
+            "Worship",
             "Finish"
         ]
     },
-    "WaitForPVP":{
-        "pre_delay":5000,
-        "post_delay":5000,
-        "next":[
-            "Quit",
-            "WaitForPVP",
-            "GoOut"
-        ]
-    },
+
     
     "CorrectPVP":{
         "recognition": {
@@ -330,8 +333,8 @@
         "post_delay":1500,
         "next":[
             "CorrectPVP", 
-            "Finish",
-            "Worship"
+            "Worship",
+            "Finish"
         ]
     },
     "Finish":{

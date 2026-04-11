@@ -44,7 +44,8 @@
         "next":[
             "EnterSquare",
             "GetDaily2",
-            "GetSquare"
+            "GetSquare",
+            "MoveSquare"
         ]
     },
     "EnterGacha2":{
@@ -105,7 +106,8 @@
         "post_delay":2500,
         "next":[
             "GetDaily2",
-            "GetSquare"
+            "GetSquare",
+            "MoveSquare"
         ]
     },
 
@@ -147,63 +149,22 @@
             "StartGame"
         ]
     },
-    "MoveSquare1":{
+    "MoveSquare":{
         "recognition": {
-            "type": "TemplateMatch",
+            "type": "OCR",
             "param": {
-                "template": "Square/Move.png",
-                "threshold": 0.30,
-                "roi":[115,500,160,160]
+                "expected": "每日奖励",
+                "threshold": 0.70,
+                "roi":[1030,150,150,100]
             }
         },
-        "max_hit": 2,
         "action": {
-            "type": "Swipe",
-            "param": {
-                "begin": [
-                    192,
-                    588
-                ],
-                "end": [
-                    247,
-                    643
-                ],
-                "end_hold": 300
-            }
+            "type": "click"
         },
-        "post_delay":500,
-        "next":[
-            "MoveSquare2"
-        ]
-    },
-    "MoveSquare2":{
-        "recognition": {
-            "type": "TemplateMatch",
-            "param": {
-                "template": "PVP/Move.png",
-                "threshold": 0.30,
-                "roi":[40,600,840,100]
-            }
-        },
-        "max_hit": 2,
-        "action": {
-            "type": "Swipe",
-            "param": {
-                "begin": [
-                    192,
-                    588
-                ],
-                "end": [
-                    137,
-                    533
-                ],
-                "end_hold": 500
-            }
-        },
-        "post_delay":500,
+        "post_delay":2500,
         "next":[
             "GetSquare",
-            "MoveSquare1"
+            "MoveSquare"
         ]
     }
 }

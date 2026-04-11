@@ -311,7 +311,7 @@
         "action":{
             "type":"Click"
         },
-        "post_delay":3500,
+        "post_delay":4000,
         "next":[
             "IntensifySure",
             "IntensifyMain"
@@ -324,7 +324,7 @@
             "param":{
                 "template":"Bag/C.png",
                 "roi":[950,490,150,80],
-                "threshold":0.95
+                "threshold":0.80
             }
         },
         "post_delay":500,
