@@ -21,7 +21,6 @@ cache/
 # 系统文件
 .DS_Store
 Thumbs.db
-<<<<<<< HEAD
 cache/
 
 # 用户配置
@@ -35,4 +34,3 @@ resource/model/ocr/
 *.pdb
 *.tmp
 config/mxu-MaaBrownDust.json
->>>>>>> c5322cb13133913dc23ff32a6436a6b0414c7f84
