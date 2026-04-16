@@ -137,7 +137,8 @@
             "param": {
                 "template": "Square/Get.png",
                 "threshold": 0.50,
-                "roi":[910,560,70,70]
+                "roi":[910,560,70,70],
+                "green_mask":true
             }
         },
         "action":{

@@ -369,7 +369,7 @@
             "type":"TemplateMatch",
             "param":{
                 "template":"PVP/Back.png",
-                "roi":[70,0,75,60],
+                "roi":[60,0,85,60],
                 "threshold":0.50
             }
         },
@@ -379,7 +379,7 @@
                 "target":[75,37]
             }
         },
-        "post_delay":3000,
+        "post_delay":5000,
         "next":[
             "Worship",
             "FinishPVP"
@@ -393,7 +393,7 @@
             "param":{
                 "template":"PVP/Worship.png",
                 "roi":[250,290,250,150],
-                "threshold":0.50
+                "threshold":0.30
             }
         },
         "next":[
